@@ -1,16 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:300,400");
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: greyscale;
-  background-color: #FAFCFF; }
+  background-color: #FAFCFF;
+}
 
 .header {
   margin-top: 150px;
-  height: 350px; }
+  height: 350px;
+}
 
 .name {
   border: 1px solid #626972;
@@ -21,14 +24,16 @@ body {
   padding-right: 100px;
   display: flex;
   align-items: center;
-  justify-content: flex-end; }
-  .name p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 60px;
-    font-weight: 300;
-    color: #040122;
-    line-height: 1.5;
-    letter-spacing: 4.8px; }
+  justify-content: flex-end;
+}
+.name p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+  font-weight: 300;
+  color: #040122;
+  line-height: 1.5;
+  letter-spacing: 4.8px;
+}
 
 .description {
   color: #3E506C;
@@ -38,73 +43,126 @@ body {
   align-items: center;
   font-size: 35px;
   height: 100%;
-  padding-left: 100px; }
+  padding-left: 100px;
+}
 
 .oneLiner {
   font-family: 'Open Sans', sans-serif;
   display: inline;
   font-weight: 300;
-  align-self: center; }
+  align-self: center;
+}
 
 .words {
   align-self: center;
   text-indent: 10px;
   height: 100%;
   display: flex;
-  align-items: center; }
-  .words span {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    position: absolute;
-    opacity: 0;
-    animation: slideWords 8s linear infinite; }
-    .words span:nth-child(2) {
-      animation-delay: 1.6s; }
-    .words span:nth-child(3) {
-      animation-delay: 3.2s; }
-    .words span:nth-child(4) {
-      animation-delay: 4.8s; }
-    .words span:nth-child(5) {
-      animation-delay: 6.4s; }
-
-@keyframes slideWords {
-  0%, 20% {
-    opacity: 0; }
-  10%, 15% {
-    opacity: 1; } }
+  align-items: center;
+}
+.words span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  position: absolute;
+  opacity: 0;
+  animation: slideWords 8s linear infinite;
+}
+.words span:nth-child(2) {
+  animation-delay: 1.6s;
+}
+.words span:nth-child(3) {
+  animation-delay: 3.2s;
+}
+.words span:nth-child(4) {
+  animation-delay: 4.8s;
+}
+.words span:nth-child(5) {
+  animation-delay: 6.4s;
+}
 
 .navigation {
   display: flex;
-  margin: 200px auto;
+  margin-top: 200px;
+  margin-bottom: 100px;
   justify-content: center;
-  align-items: center; }
-  .navigation .nav-link {
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    margin: 10px 50px;
-    color: #6C7A83;
-    font-size: 20px;
-    font-weight: 400; }
-  .navigation .active {
-    padding: 12px 18px;
-    color: #FAFCFF;
-    background-color: #28A828;
-    border-radius: 3px; }
+  align-items: center;
+}
+.navigation .nav-link {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 50px;
+  color: #6C7A83;
+  font-size: 20px;
+  font-weight: 400;
+}
+.navigation .active {
+  padding: 12px 18px;
+  color: #FAFCFF;
+  background-color: #28A828;
+  border-radius: 3px;
+}
 
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project{
+	margin: 40px 0;
+}
+
+.project-thumbnail{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.card{
+	background-color: #FFF;
+	width: 280px;
+	height: 200px;
+	border-radius: 4px;
+	box-shadow: 0 2px 10px 0 rgba(13,9,44, 0.16);
+}
+
+.project-title {
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #5E6971;
+}
+
+@keyframes slideWords {
+  0%, 20% {
+    opacity: 0;
+  }
+  10%, 15% {
+    opacity: 1;
+  }
+}
 @media screen and (max-width: 700px) {
   .navigation .nav-link {
-    margin: 10px 20px; } }
-
+    margin: 10px 20px;
+  }
+}
 @media screen and (max-width: 450px) {
   .navigation .nav-link {
     font-size: 16px;
-    margin: 10px 10px; }
+    margin: 10px 10px;
+  }
   .navigation .active {
-    padding: 8px 12px; } }
-
+    padding: 8px 12px;
+  }
+}
 @media screen and (max-width: 316px) {
   .navigation .nav-link {
     font-size: 14px;
-    margin: 10px 10px; }
+    margin: 10px 10px;
+  }
   .navigation .active {
-    padding: 10px 15px; } }
+    padding: 10px 15px;
+  }
+}
