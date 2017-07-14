@@ -1,7 +1,13 @@
 {
   "name": "",
   "version": "",
-  "dependencies": {
-    "pug": "^2.0.0-rc.2"
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "pug": "^2.0.0-rc.2",
+    "pug-cli": "^1.0.0-alpha6"
+  },
+  "scripts": {
+    "renderpug": "pug --watch PugFiles -o ./",
+    "renderscss": "node-sass -w SassFiles -o ./css"
   }
 }
