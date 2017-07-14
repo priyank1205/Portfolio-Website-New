@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:300,400');
 
 $animation_time: 8s;
 $words: 5;
@@ -10,6 +10,7 @@ $words: 5;
 
 body {
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: greyscale;
   background-color: #FAFCFF;
 }
 
@@ -32,6 +33,7 @@ body {
   p{
     font-family: 'Roboto', sans-serif;
     font-size: 60px;
+    font-weight: 300;
     color: #040122;
     line-height: 1.5;
     letter-spacing: 4.8px;
@@ -97,4 +99,59 @@ body {
   10%, 15% {
     opacity: 1;
   }
+}
+
+.navigation{
+	display: flex;
+	margin: 200px auto;
+	justify-content: center;
+	align-items: center;
+
+	.nav-link{
+		text-decoration: none;
+		font-family: 'Roboto', sans-serif;
+		margin: 10px 50px;
+		color: #6C7A83;
+		font-size: 20px;
+    font-weight: 400;
+	}
+
+	.active{
+			padding: 12px 18px;
+			color: #FAFCFF;
+			background-color: #28A828;
+			border-radius: 3px;
+		}
+}
+
+@media screen and (max-width: 700px){
+	.navigation{
+		.nav-link{
+			margin: 10px 20px;
+		}
+	}
+}
+
+@media screen and (max-width: 450px){
+	.navigation{
+		.nav-link{
+			font-size: 16px;
+			margin: 10px 10px;
+		}
+		.active{
+			padding: 8px 12px;
+		}
+	}
+}
+
+@media screen and (max-width: 316px){
+	.navigation{
+		.nav-link{
+			font-size: 14px;
+			margin: 10px 10px;
+		}
+		.active{
+			padding: 10px 15px;
+		}
+	}
 }
