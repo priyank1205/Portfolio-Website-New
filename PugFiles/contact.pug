@@ -1,3 +1,47 @@
 html
   head
-    link
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
+    link(rel='stylesheet', href='css/contact.css')
+  body
+    .container-fluid
+      .header
+        nav.navigation
+          a.nav-link(href='#') Portfolio
+          a.nav-link(href='resume.pdf') Resume
+          a.nav-link(href='about.html') About
+          a.nav-link.active(href='#') Contact
+      .text
+        .greeting Ola! :)
+        .description
+          .lines If you’ve made it to this page, you certainly have something to discuss or ask.<br/> Shoot right away!
+          .lines I'll be available on the following
+          .lines.contact-info
+            p
+              | Email:
+              span.bright  priyank.agarwal1205@gmail.com
+            p
+              | Phone:
+              span.bright  +91 7896889838
+      .footer
+        ul.social-network.social-circle
+          li
+            a.icoLinkedin(href='https://www.linkedin.com/in/priyank1205', title='Linkedin')
+              i.fa.fa-linkedin
+          li
+            a.icoTwitter(href='https://twitter.com/priyank1205', title='Twitter')
+              i.fa.fa-twitter
+          li
+            a.icoMedium(href='https://medium.com/@priyank1205', title='Medium')
+              i.fa.fa-medium
+          li
+            a.icoQuora(href='https://www.quora.com/profile/Priyank-Agarwal-7', title='Quora')
+              i.fa.fa-quora
+          li
+            a.icoFacebook(href='https://www.facebook.com/priyank.agarwal1205', title='Facebook')
+              i.fa.fa-facebook
+          li
+            a.icoInstagram(href='https://www.instagram.com/priyank.agarwal1205/', title='Instagram')
+              i.fa.fa-instagram
+        .footer-text
+          p Designed and Developed with curiosity by Priyank Agarwal
