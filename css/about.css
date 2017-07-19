@@ -12,7 +12,8 @@ body {
   height: 100vh;
   background-image: url("https://preview.ibb.co/k8oFXv/about_bg.jpg");
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  position: relative; }
   .image-bg:before {
     content: '';
     position: absolute;
@@ -23,20 +24,54 @@ body {
     background-image: linear-gradient(to bottom, rgba(3, 25, 59, 0.13), #041022); }
   .image-bg .overlay {
     position: absolute;
-    top: 400px;
-    left: 2%;
-    right: 2%;
-    margin-left: auto;
-    margin-right: auto; }
-    .image-bg .overlay .overlay-text .name {
-      font-family: 'Abel', sans-serif;
-      font-size: 80px;
-      color: #FAFCFF; }
-    .image-bg .overlay .overlay-text .skills {
-      font-family: 'Open Sans', sans-serif;
-      font-size: 30px;
-      font-weight: 400;
-      color: #FAFCFF; }
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center; }
+    .image-bg .overlay .overlay-text {
+      position: absolute;
+      top: 400px; }
+      .image-bg .overlay .overlay-text .name {
+        font-family: 'Abel', sans-serif;
+        font-size: 80px;
+        color: #FAFCFF;
+        text-align: center; }
+      .image-bg .overlay .overlay-text .skills {
+        margin-top: 20px;
+        margin-left: 8%;
+        margin-right: 8%;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        color: #FAFCFF;
+        text-align: center; }
+    .image-bg .overlay .buttons {
+      position: absolute;
+      bottom: 50px;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: center; }
+      .image-bg .overlay .buttons .rnd-btn {
+        display: inline-block;
+        width: 200px;
+        height: 60px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 40px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 400; }
+      .image-bg .overlay .buttons .portfolio-btn {
+        background-color: #FAFCFF;
+        color: #6C7A83;
+        margin-right: 80px; }
+      .image-bg .overlay .buttons .contact-btn {
+        background-color: #28A828;
+        color: #FAFCFF; }
 
 .description {
   height: 100vh;
@@ -56,7 +91,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    color: #70747B;
+    color: #4C5158;
     line-height: 30px; }
     .description .about-text .text-para {
       margin-bottom: 30px; }
