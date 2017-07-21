@@ -205,12 +205,21 @@ ul.social-network {
   10%, 15% {
     opacity: 1; } }
 
+@media screen and (max-width: 700px) {
+  .navigation .nav-link {
+    margin: 10px 20px; } }
+
 @media screen and (max-width: 500px) {
   ul.social-network li {
     display: inline;
     margin: 0 5px; } }
 
 @media screen and (max-width: 450px) {
+  .navigation .nav-link {
+    font-size: 16px;
+    margin: 10px 10px; }
+  .navigation .active {
+    padding: 8px 12px; }
   ul.social-network li {
     display: inline;
     margin: 0 5px; }
@@ -249,17 +258,6 @@ ul.social-network {
     margin: 0;
     line-height: 40px;
     text-align: center; } }
-
-@media screen and (max-width: 700px) {
-  .navigation .nav-link {
-    margin: 10px 20px; } }
-
-@media screen and (max-width: 450px) {
-  .navigation .nav-link {
-    font-size: 16px;
-    margin: 10px 10px; }
-  .navigation .active {
-    padding: 8px 12px; } }
 
 @media screen and (max-width: 316px) {
   .navigation .nav-link {
