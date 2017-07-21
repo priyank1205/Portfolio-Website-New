@@ -263,14 +263,14 @@ ul.social-network {
 }
 
 @media screen and (max-width: 700px){
-	.navigation{
-		.nav-link{
-			margin: 10px 20px;
-		}
-	}
+  .navigation{
+    .nav-link{
+      margin: 10px 20px;
+    }
+  }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 580px) {
     ul.social-network li {
         display: inline;
         margin: 0 5px;
