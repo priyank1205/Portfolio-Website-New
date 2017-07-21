@@ -56,9 +56,12 @@ body {
       line-height: 2.2; }
       .text .description .contact-info .bright {
         color: #DFE8ED; }
+        .text .description .contact-info .bright:hover {
+          text-decoration: none;
+          color: #FFFFFF; }
 
 .footer {
-  margin-bottom: 25px;
+  margin-top: 50px;
   padding: 20px 0;
   text-align: center; }
   .footer .footer-text {

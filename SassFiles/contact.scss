@@ -74,13 +74,18 @@ body {
 
       .bright{
         color: #DFE8ED;
+
+        &:hover{
+          text-decoration: none;
+          color: #FFFFFF;
+        }
       }
     }
   }
 }
 
 .footer {
-    margin-bottom: 25px;
+    margin-top: 50px;
     padding: 20px 0;
     text-align: center;
 
