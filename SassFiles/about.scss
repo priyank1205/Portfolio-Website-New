@@ -41,7 +41,7 @@ body {
 
     .overlay-text{
       position: absolute;
-      top: 400px;
+      top: 300px;
 
       .name{
         font-family: 'Abel', sans-serif;
@@ -103,7 +103,7 @@ body {
   .greeting{
     padding: 30px 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color: #041022;
     border: 1px solid #4F5662;
@@ -115,10 +115,10 @@ body {
   .about-text{
     margin-top: 50px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     color: #4C5158;
-    line-height: 30px;
+    line-height: 28px;
 
     .text-para{
       margin-bottom: 30px;
@@ -130,7 +130,14 @@ body {
 
       .darker{
         color: #041022;
+        text-decoration: none;
       }
     }
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .portfolio-btn{
+    margin-right: 40px;
   }
 }

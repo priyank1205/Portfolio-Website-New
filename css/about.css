@@ -32,7 +32,7 @@ body {
     justify-content: center; }
     .image-bg .overlay .overlay-text {
       position: absolute;
-      top: 400px; }
+      top: 300px; }
       .image-bg .overlay .overlay-text .name {
         font-family: 'Abel', sans-serif;
         font-size: 80px;
@@ -79,7 +79,7 @@ body {
   .description .greeting {
     padding: 30px 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color: #041022;
     border: 1px solid #4F5662;
@@ -89,14 +89,19 @@ body {
   .description .about-text {
     margin-top: 50px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     color: #4C5158;
-    line-height: 30px; }
+    line-height: 28px; }
     .description .about-text .text-para {
       margin-bottom: 30px; }
       .description .about-text .text-para .italic {
         font-weight: 600;
         font-style: italic; }
       .description .about-text .text-para .darker {
-        color: #041022; }
+        color: #041022;
+        text-decoration: none; }
+
+@media screen and (max-width: 1000px) {
+  .portfolio-btn {
+    margin-right: 40px; } }
