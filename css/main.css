@@ -152,7 +152,8 @@ body {
       font-family: 'Open Sans', sans-serif;
       font-weight: 400;
       font-size: 16px;
-      color: #5E6971; }
+      color: #5E6971;
+      text-decoration: none; }
 
 .footer {
   margin-top: 150px;
