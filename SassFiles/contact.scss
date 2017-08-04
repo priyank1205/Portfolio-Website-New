@@ -199,6 +199,13 @@ ul.social-network {
   }
 }
 
+@media screen and (max-width: 580px) {
+    ul.social-network li {
+        display: inline;
+        margin: 0 5px;
+    }
+}
+
 @media screen and (max-width: 450px) {
   .header{
     .navigation{
@@ -210,6 +217,54 @@ ul.social-network {
         padding: 8px 12px;
       }
     }
+  }
+
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+
+  .social-circle li a {
+      display: inline-block;
+      position: relative;
+      margin: 0 auto 0 auto;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      text-align: center;
+      width: 40px;
+      height: 40px;
+      font-size: 16px;
+  }
+
+  .social-circle li i {
+      margin: 0;
+      line-height: 40px;
+      text-align: center;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  ul.social-network li {
+      display: inline;
+      margin: 0 2px;
+  }
+  .social-circle li a {
+      display: inline-block;
+      position: relative;
+      margin: 0 auto 0 auto;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      text-align: center;
+      width: 40px;
+      height: 40px;
+      font-size: 16px;
+  }
+  .social-circle li i {
+      margin: 0;
+      line-height: 40px;
+      text-align: center;
   }
 }
 
