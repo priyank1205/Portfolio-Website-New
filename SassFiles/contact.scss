@@ -216,7 +216,12 @@ ul.social-network {
 @media screen and (max-width: 450px) {
   .text{
     margin: 80px 40px;
+
+    .contact-info{
+      font-size: 18px;
+    }
   }
+
   .header{
     .navigation{
       .nav-link{
