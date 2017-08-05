@@ -161,6 +161,8 @@ ul.social-network {
     margin: 0 5px; } }
 
 @media screen and (max-width: 450px) {
+  .text {
+    margin: 80px 40px; }
   .header .navigation .nav-link {
     font-size: 16px;
     margin: 10px 10px; }
