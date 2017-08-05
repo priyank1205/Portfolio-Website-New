@@ -214,4 +214,8 @@ ul.social-network {
     font-size: 14px;
     margin: 10px 10px; }
   .header .navigation .active {
-    padding: 10px 15px; } }
+    padding: 10px 15px; }
+  .text {
+    margin: 80px 30px; }
+    .text .contact-info {
+      font-size: 16px; } }
