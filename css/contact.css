@@ -147,6 +147,10 @@ ul.social-network {
 .social-circle a {
   background-color: #122643; }
 
+@media screen and (max-width: 900px) {
+  .text {
+    margin: 80px; } }
+
 @media screen and (max-width: 700px) {
   .header .navigation .nav-link {
     margin: 10px 20px; } }
