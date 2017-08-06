@@ -261,6 +261,9 @@ ul.social-network {
     margin: 10px 10px; }
   .navigation .active {
     padding: 8px 12px; }
+  .footer .footer-text {
+    margin-top: 40px;
+    margin-bottom: 20px; }
   ul.social-network li {
     display: inline;
     margin: 0 5px; }
