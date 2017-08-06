@@ -261,6 +261,12 @@ ul.social-network {
     padding: 0;
     justify-content: center;
     border: none; }
+    .name p {
+      padding: 40px 20px;
+      border: 1px solid #626972;
+      border-top: transparent;
+      border-left: transparent;
+      border-right: transparent; }
   .description {
     height: 150px;
     padding: 0;
@@ -275,6 +281,16 @@ ul.social-network {
   ul.social-network li {
     display: inline;
     margin: 0 5px; } }
+
+@media screen and (max-width: 500px) {
+  .header {
+    margin-top: 60px; }
+  .name p {
+    font-size: 40px; }
+  .description {
+    font-size: 24px;
+    margin-right: 130px;
+    height: 100px; } }
 
 @media screen and (max-width: 450px) {
   .navigation .nav-link {
