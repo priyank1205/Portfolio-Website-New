@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:300,400');
 
-$animation_time: 8s;
-$words: 5;
+$animation_time: 6s;
+$words: 4;
 
 *{
   margin: 0;
@@ -329,6 +329,25 @@ ul.social-network {
   }
   .description{
     padding-left: 60px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .header{
+    margin-top: 100px;
+    height: auto;
+  }
+  .name{
+    height: 250px;
+    padding: 0;
+    justify-content: center;
+    border: none;
+  }
+  .description{
+    height: 150px;
+    padding: 0;
+    justify-content: center;
+    margin-right: 180px;
   }
 }
 
