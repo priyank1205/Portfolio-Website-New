@@ -292,7 +292,8 @@ ul.social-network {
     margin-right: 130px;
     height: 100px; }
   .navigation {
-    margin-top: 80px; } }
+    margin-top: 80px;
+    margin-bottom: 40px; } }
 
 @media screen and (max-width: 450px) {
   .navigation .nav-link {
