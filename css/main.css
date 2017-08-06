@@ -246,6 +246,12 @@ ul.social-network {
   10%, 15% {
     opacity: 1; } }
 
+@media screen and (max-width: 1200px) {
+  .name {
+    padding-right: 60px; }
+  .description {
+    padding-left: 60px; } }
+
 @media screen and (max-width: 700px) {
   .navigation .nav-link {
     margin: 10px 20px; } }
@@ -303,7 +309,7 @@ ul.social-network {
     line-height: 40px;
     text-align: center; } }
 
-@media screen and (max-width: 316px) {
+@media screen and (max-width: 325px) {
   .navigation .nav-link {
     font-size: 14px;
     margin: 10px 10px; }

@@ -323,6 +323,15 @@ ul.social-network {
   }
 }
 
+@media screen and (max-width: 1200px){
+  .name{
+    padding-right: 60px;
+  }
+  .description{
+    padding-left: 60px;
+  }
+}
+
 @media screen and (max-width: 700px){
   .navigation{
     .nav-link{
@@ -405,7 +414,7 @@ ul.social-network {
     }
 }
 
-@media screen and (max-width: 316px){
+@media screen and (max-width: 325px){
 	.navigation{
 		.nav-link{
 			font-size: 14px;
