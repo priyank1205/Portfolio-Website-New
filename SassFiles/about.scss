@@ -167,3 +167,15 @@ body {
     }
   }
 }
+
+@media screen and (max-width: 450px){
+  .image-bg{
+    height: 120vh;
+
+    .overlay{
+      .overlay-text{
+        top: 20vh;
+      }
+    }
+  }
+}
