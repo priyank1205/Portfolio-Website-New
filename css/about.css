@@ -122,8 +122,13 @@ body {
 
 @media screen and (max-width: 450px) {
   .image-bg {
-    height: 120vh; }
+    height: 110vh; }
     .image-bg .overlay .overlay-text {
       top: 20vh; }
     .image-bg .overlay .buttons {
-      top: 80vh; } }
+      top: 80vh;
+      left: 50%;
+      transform: translate(-50%);
+      display: block; }
+      .image-bg .overlay .buttons .portfolio-btn {
+        margin-bottom: 20px; } }
