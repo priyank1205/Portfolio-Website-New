@@ -132,3 +132,9 @@ body {
       display: block; }
       .image-bg .overlay .buttons .portfolio-btn {
         margin-bottom: 20px; } }
+
+@media screen and (max-width: 330px) {
+  .image-bg .overlay .overlay-text .name {
+    font-size: 50px; }
+  .image-bg .overlay .overlay-text .skills {
+    font-size: 20px; } }

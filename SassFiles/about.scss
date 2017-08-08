@@ -189,3 +189,18 @@ body {
     }
   }
 }
+
+@media screen and (max-width: 330px){
+  .image-bg{
+    .overlay{
+      .overlay-text{
+        .name{
+          font-size: 50px;
+        }
+        .skills{
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
