@@ -348,6 +348,12 @@ ul.social-network {
   }
 }
 
+@media screen and (max-width: 768px){
+  .col-sm-4{
+    width: auto;
+  }
+}
+
 @media screen and (max-width: 766px){
   .header{
     margin-top: 100px;
