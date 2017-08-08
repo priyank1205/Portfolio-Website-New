@@ -110,7 +110,9 @@ body {
   .image-bg {
     height: 75vh; }
     .image-bg .overlay .overlay-text {
-      top: 38vh; } }
+      top: 38vh; }
+  .description {
+    height: auto; } }
 
 @media screen and (max-width: 700px) {
   .image-bg .overlay .overlay-text .name {
