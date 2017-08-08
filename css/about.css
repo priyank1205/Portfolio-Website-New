@@ -32,7 +32,7 @@ body {
     justify-content: center; }
     .image-bg .overlay .overlay-text {
       position: absolute;
-      top: 300px; }
+      top: 45vh; }
       .image-bg .overlay .overlay-text .name {
         font-family: 'Abel', sans-serif;
         font-size: 80px;
