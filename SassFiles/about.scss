@@ -142,6 +142,18 @@ body {
   }
 }
 
+@media screen and (max-width: 990px){
+  .image-bg{
+    height: 75vh;
+
+    .overlay{
+      .overlay-text{
+        top: 38vh;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 700px){
   .image-bg .overlay .overlay-text{
     .name{
