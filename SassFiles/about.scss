@@ -136,6 +136,25 @@ body {
   }
 }
 
+@media screen and (min-width: 1400px){
+  .image-bg{
+    .overlay{
+      .overlay-text{
+        top: 50vh;
+      }
+    }
+  }
+  .description{
+    .greeting{
+      font-size: 20px;
+    }
+    .about-text{
+      font-size: 20px;
+      line-height: 35px;
+    }
+  }
+}
+
 @media screen and (max-width: 1000px){
   .portfolio-btn{
     margin-right: 40px;
