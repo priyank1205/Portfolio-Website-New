@@ -252,6 +252,15 @@ ul.social-network {
   .description {
     padding-left: 60px; } }
 
+@media screen and (max-width: 900px) {
+  .name {
+    padding-right: 40px; }
+    .name p {
+      font-size: 50px; }
+  .description {
+    padding-left: 40px;
+    font-size: 30px; } }
+
 @media screen and (max-width: 766px) {
   .header {
     margin-top: 100px;

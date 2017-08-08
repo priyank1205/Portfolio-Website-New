@@ -323,12 +323,28 @@ ul.social-network {
   }
 }
 
+//*****Media Queries*****
+
 @media screen and (max-width: 1200px){
   .name{
     padding-right: 60px;
   }
   .description{
     padding-left: 60px;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .name{
+    padding-right: 40px;
+
+    p{
+      font-size: 50px;
+    }
+  }
+  .description{
+    padding-left: 40px;
+    font-size: 30px;
   }
 }
 
