@@ -1,4 +1,30 @@
-@import url("https://fonts.googleapis.com/css?family=Abel");
+@import url("https://fonts.googleapis.com/css?family=Abel|Roboto");
+* {
+  margin: 0;
+  padding: 0; }
+
+.navigation {
+  display: flex;
+  background-color: #041022;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 40px; }
+  .navigation .nav-link {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: greyscale;
+    margin: 0 50px;
+    color: #6C7A83;
+    font-size: 14px; }
+  .navigation .active {
+    padding: 12px 22px;
+    color: #FAFCFF;
+    background-color: #28A828;
+    border-radius: 3px;
+    font-size: 13px; }
+
 .project-nav {
   height: 60px;
   width: 500px;
@@ -52,6 +78,12 @@
     .project-nav .next .label {
       right: 100px; }
 
+@media screen and (max-width: 700px) {
+  .navigation {
+    padding: 30px; }
+    .navigation .nav-link {
+      margin: 0 20px; } }
+
 @media screen and (max-width: 500px) {
   .project-nav {
     width: 100%;
@@ -70,3 +102,19 @@
       right: 20px; }
     .project-nav .next .label {
       right: 60px; } }
+
+@media screen and (max-width: 450px) {
+  .navigation {
+    padding: 20px; }
+    .navigation .nav-link {
+      font-size: 14px;
+      margin: 0 10px; }
+    .navigation .active {
+      padding: 8px 12px; } }
+
+@media screen and (max-width: 316px) {
+  .navigation .nav-link {
+    font-size: 12px;
+    margin: 0 10px; }
+  .navigation .active {
+    padding: 10px 15px; } }
