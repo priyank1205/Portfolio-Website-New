@@ -1,5 +1,6 @@
 {
-  "name": "",
+  "name": "website",
+  "description" : "Redesigned Portfolio Website",
   "version": "",
   "devDependencies": {
     "node-sass": "^4.5.3",
