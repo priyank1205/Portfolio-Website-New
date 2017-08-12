@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400|Abel|Roboto:400,500");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Abel|Roboto:400,500,700");
 * {
   margin: 0;
   padding: 0; }
@@ -15,7 +15,7 @@
     height: 15px;
     width: 29.5px;
     background-size: 100%;
-    background: url("http://svgshare.com/i/2a9.svg"); }
+    background: url("../img/back.svg"); }
   .back-to-portfolio .label {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
@@ -33,35 +33,47 @@
     color: #041022;
     margin-bottom: 50px; }
   .project-details .project-description {
-    margin-top: 30px;
     margin-bottom: 30px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400; }
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7; }
+  .project-details .project-subheading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #041022;
+    letter-spacing: 1px;
+    font-size: 14px; }
   .project-details .project-img {
     max-width: 100%;
     margin-bottom: 30px; }
 
-.back-btn {
+.rnd-btn {
   position: relative;
-  left: 50%;
-  transform: translate(-50%);
   margin: 90px auto 60px;
   width: 250px;
   height: 50px;
-  display: inline-block;
-  padding: 14px 60px;
-  background-color: transparent;
-  border: 1px solid #28A828;
   border-radius: 40px;
-  color: #28A828;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 400; }
+
+.back-btn {
+  padding: 14px 60px;
+  background-color: transparent;
+  border: 1px solid #28A828;
+  color: #28A828; }
   .back-btn:hover {
     background-color: #28A828;
     border: none;
     color: #FAFCFF; }
+
+.contact-btn {
+  padding: 14px 88px;
+  color: #FAFCFF;
+  background-color: #28A828; }
 
 .project-nav {
   height: 60px;
@@ -105,14 +117,14 @@
     border-right: 1px solid #CDCDCD; }
     .project-nav .previous i {
       left: 40px;
-      background: url("http://svgshare.com/i/2aX.svg"); }
+      background: url("../img/left.svg"); }
     .project-nav .previous .label {
       left: 100px; }
   .project-nav .next {
     right: 0; }
     .project-nav .next i {
       right: 40px;
-      background: url("http://svgshare.com/i/2aM.svg"); }
+      background: url("../img/right.svg"); }
     .project-nav .next .label {
       right: 100px; }
 
