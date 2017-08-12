@@ -4,12 +4,19 @@ html
     link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
     link(rel='stylesheet', href='css/project.css')
   body
-    nav.navigation
-      a.nav-link.active(href='index.html#portfolio') Portfolio
-      a.nav-link(href='resume.pdf') Resume
-      a.nav-link(href='about.html') About
-      a.nav-link(href='contact.html') Contact
-    .container
+    .container.project
+      a.back-to-portfolio(href='index.html#portfolio')
+        i.back-icon
+        span.label Back to Portfolio
+      .project-details
+        .project-heading Pakit
+        .project-description Role: Lead Designer
+        .project-description Pakit was a startup, cofounded by me with a friend. I was responsible to overlook the disgital product. Pakit is an online service to send and receive couriers using P2P delivery
+        .project-description Pakit was a startup, cofounded by me with a friend. I was responsible to overlook the disgital product. Pakit is an online service to send and receive couriers using P2P delivery
+        img.project-img(src='http://via.placeholder.com/1000x1000')
+        a(href='index.html#portfolio')
+          div.back-btn Back to Portfolio
+
     .project-nav
       a.previous.project-nav-section(href='#')
         i.prev-icon
