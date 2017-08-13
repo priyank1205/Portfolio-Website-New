@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0; }
 
+a:hover {
+  text-decoration: none; }
+
 .project {
   max-width: 900px;
   margin-bottom: 120px; }
@@ -21,8 +24,6 @@
     font-size: 20px;
     font-weight: 400;
     color: #646A74; }
-    .back-to-portfolio .label:hover {
-      text-decoration: none; }
 
 .project-details {
   margin-top: 80px; }
@@ -51,8 +52,9 @@
     margin-bottom: 30px; }
 
 .rnd-btn {
+  display: block;
   position: relative;
-  margin: 90px auto 60px;
+  margin: 60px auto;
   width: 250px;
   height: 50px;
   border-radius: 40px;
@@ -66,14 +68,16 @@
   border: 1px solid #28A828;
   color: #28A828; }
   .back-btn:hover {
-    background-color: #28A828;
-    border: none;
-    color: #FAFCFF; }
+    border: 1px solid #041022;
+    color: #041022; }
 
 .contact-btn {
   padding: 14px 88px;
   color: #FAFCFF;
   background-color: #28A828; }
+  .contact-btn:hover {
+    opacity: 0.8;
+    color: #FAFCFF; }
 
 .project-nav {
   height: 60px;

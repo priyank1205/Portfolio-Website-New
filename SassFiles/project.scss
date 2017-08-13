@@ -5,6 +5,10 @@
 	padding: 0;
 }
 
+a:hover{
+	text-decoration: none;
+}
+
 .project{
   max-width: 900px;
   margin-bottom: 120px;
@@ -27,9 +31,6 @@
     font-size: 20px;
     font-weight: 400;
     color: #646A74;
-    &:hover{
-      text-decoration: none;
-    }
   }
 }
 
@@ -69,8 +70,9 @@
 }
 
 .rnd-btn{
+  display: block;
   position: relative;
-  margin: 90px auto 60px;
+  margin: 60px auto;
 	width: 250px;
 	height: 50px;
   border-radius: 40px;
@@ -86,9 +88,8 @@
 	color: #28A828;
 
   &:hover{
-    background-color: #28A828;
-    border: none;
-    color: #FAFCFF;
+    border: 1px solid #041022;
+    color: #041022;
   }
 }
 
@@ -96,6 +97,11 @@
   padding: 14px 88px;
   color: #FAFCFF;
   background-color: #28A828;
+
+  &:hover{
+    opacity: 0.8;
+    color: #FAFCFF;
+  }
 }
 
 .project-nav{
