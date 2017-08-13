@@ -24,6 +24,8 @@ a:hover {
     font-size: 20px;
     font-weight: 400;
     color: #646A74; }
+  .back-to-portfolio:hover .label {
+    color: #041022; }
 
 .project-details {
   margin-top: 80px; }

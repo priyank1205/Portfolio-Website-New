@@ -32,6 +32,12 @@ a:hover{
     font-weight: 400;
     color: #646A74;
   }
+
+  &:hover{
+    .label{
+      color: #041022;
+    }
+  }
 }
 
 .project-details{
