@@ -9,6 +9,7 @@
   },
   "scripts": {
     "renderpug": "pug --watch PugFiles -o ./",
-    "renderscss": "node-sass -w SassFiles -o ./css"
+    "renderscss": "node-sass -w SassFiles -o ./css",
+    "prefix" : "postcss ./css/*.css --use autoprefixer -d ./css"
   }
 }
