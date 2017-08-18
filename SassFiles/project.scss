@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Abel|Roboto:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Abel|Roboto:400,500,700');
 
 *{
 	margin: 0;
@@ -43,6 +43,15 @@ a:hover{
 .project-details{
   margin-top: 80px;
 
+  .project-role{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #202B3B;
+    margin-bottom: 30px;
+    line-height: 1.7;
+  }
+
   .project-heading{
     font-family: 'Roboto', sans-serif;
     font-size: 42px;
@@ -63,7 +72,7 @@ a:hover{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     color: #041022;
     letter-spacing: 1px;
     font-size: 14px;
