@@ -136,6 +136,18 @@ body {
   }
 }
 
+@media screen and (min-width: 1600px){
+  .description{
+    .greeting{
+      font-size: 20px;
+    }
+    .about-text{
+      font-size: 20px;
+      line-height: 35px;
+    }
+  }
+}
+
 @media screen and (min-width: 1400px){
   .image-bg{
     .overlay{
@@ -146,11 +158,11 @@ body {
   }
   .description{
     .greeting{
-      font-size: 20px;
+      font-size: 18px;
     }
     .about-text{
-      font-size: 20px;
-      line-height: 35px;
+      font-size: 18px;
+      line-height: 32px;
     }
   }
 }
