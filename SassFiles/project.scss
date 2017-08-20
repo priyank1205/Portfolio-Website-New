@@ -157,12 +157,9 @@ a:hover{
     }
 
     &:hover{
-      i{
-        height: 16.9px;
-        width: 33px;
-      }
       .label{
-        font-size: 18px;
+        color: #FAFCFF;
+				font-weight: 400;
       }
     }
   }
