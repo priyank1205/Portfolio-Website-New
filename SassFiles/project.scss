@@ -46,10 +46,22 @@ a:hover{
   .project-role{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    font-weight: 600;
-    color: #202B3B;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     line-height: 1.7;
+
+    .role{
+      margin-bottom: 10px;
+    }
+
+    .heavy{
+      color: #202B3B;
+      font-weight: 600;
+    }
+
+    .lighter{
+      color: #203065;
+      font-weight: 400;
+    }
   }
 
   .project-heading{
