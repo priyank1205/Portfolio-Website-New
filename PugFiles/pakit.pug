@@ -10,13 +10,65 @@ html
         span.label Back to Portfolio
       .project-details
         .project-heading Pakit
-        .project-role Role: Lead Designer
-        .project-description Pakit was a startup, cofounded by me with a friend. I was responsible to overlook the disgital product. Pakit is an online service to send and receive couriers using P2P delivery
-        .project-subheading What's Pakit?
-        .project-description Pakit was a startup, cofounded by me with a friend. I was responsible to overlook the disgital product. Pakit is an online service to send and receive couriers using P2P delivery
-        img.project-img(src='http://via.placeholder.com/1000x1000')
-        a.back-btn.rnd-btn(href='index.html#portfolio') Back to Portfolio
-        a.contact-btn.rnd-btn(href='contact.html') Let's Talk!
+        .project-role
+          .role
+            span.heavy Role:
+            span.lighter  UX Researcher, Designer, Product Manager
+          .role
+            span.heavy Timeline:
+            span.lighter  6 months. 2016-17
+        .project-description
+          | Pakit is a startup cofounded by me and
+          a.muted(href='https://in.linkedin.com/in/kuldeep-parewa-726603109', target='_blank')  Kuldeep Parewa.
+          | It is an online delivery and courier service making use of the peer-to-peer market.
+        .project-description
+          | I designed the MVP android app and the website along with
+          a.muted(href='https://www.behance.net/vidushipundir', target='_blank')   Vidushi Pundir.
+        .project-subheading The Problem
+        .project-description The current solution for sending and receiving couriers is through the courier services, which are very expensive and time consuming. Courier services are especially unreliable for perishable edibles and valuable goods. Especially, no prevailing solution for getting food items delivered from other cities was the trigger point for Kuldeep.
+        .project-description One other problem is the huge amout of money passengers have to pay at airports for carryign extra luggage. Although, this was not a primary problem, we found a way to solve this problem too together with the forementioned problem.
+        .project-subheading Our Solution
+        .project-description Kuldeep came up with the idea of utilising the unused baggage space of people travelling light. People who travel light can earn quick bucks by renting their baggage space. The only problem was that there was no medium for such people to do so. That is where we stepped in. Pakit was conceived to be a an online platform for people who wish to receive couriers fast and people who wish to earn some money by renting their baggage space.
+        .project-subheading The Team
+        .project-description As soon as we were convinced that this idea had potential, we set on to hire people. We hired two developers, one looking after the front-end part and the other maintaining the back-end code. We also hired a guy to look after the business development part, and Vidushi to look at the design, alongwith me. Kuldeep was the CEO, and was going to look at all the aspects.
+        .project-subheading The Design
+        .project-description We had decided from the very inception of Pakit, that we would follow a user-centric design process all along the way, and users would be our first priority whenever takign a decision. I, alongwith Vidushi charted a plan for the design. We were going to start with a primary research and then go all the way to mocking up the final designs.
+        .project-description We decided on the following steps.
+        img.project-img(src='./img/oz_dict.png')
+        .project-subheading User Research
+        .project-description The primary goal of user research was to get to know how people deal with the current solutions, what all goes in their heads while sending and receiving couriers, and also to validate our idea. We wished our solution to match the conceptual models of our users, and hence it was imperative to have a clear idea of how things worked presently.
+        .project-description For the user research, we developed a basic questionnaire and went on to the field to meet people. We interviewed around 12 people, most of them students of our college. We tried to keep the conversations very casual, and made sure that the interviewees didn't feel intimidated at any point of time.
+        .project-description
+          | The questionnaire included questions like how often people have paid for the extra baggage they carried, and if they would be comfortable carrying things for strangers. The full questionnaire can be found
+          a.muted(href='https://goo.gl/8rq5Pu', target='_blank')  here.
+        .project-subheading Insights
+        .project-description We came back with the audio recordings of the interviews, and transcribed the answers on Google Sheets. There was a lot of data, and there was an immediate requirement to sort and analyze it, therefore we decided to do an affinity analysis of the data.
+        .row.split-images
+          img.col-sm-6.project-img(src='./img/pakit_aff_1.png')
+          img.col-sm-6.project-img(src='./img/pakit_aff_2.png')
+        .project-description We came back with the audio recordings of the interviews, and transcribed the answers on Google Sheets. There was a lot of data, and there was an immediate requirement to sort and analyze it, therefore we decided to do an affinity analysis of the data.
+        .project-subheading Persona
+        .project-description We needed a persona, so that we always had access to the characteristics of our target users. We used the interviews as reference to create an average personality to represent all our target users.
+        img.project-img(src='./img/pakit_persona.png')
+        .project-description The persona acted as our go-to everytime we got stuck, and everytime we knew there could be a better and more user-friendly solution.
+        .project-description Before starting the wireframing and visual design process, we decided to sketch out a basic user journey to get the conepts out on paper, and to get a bird's eye view on the information architetcure.
+        img.project-img(src='./img/pakit_journey.png')
+        .project-description I frequently referred to the user journey as low fidelity wireframes, as we had sketched out not only how a user would navigate the app, but also how the individual screens would look like.
+        .project-subheading Wireframes
+        .project-description After the user journey was designed, the wireframes were a piece of cake. We just had to block space out, and place the elements carefully on the screen, to make everything legible and conforming to the conventional UI principles.
+        .project-description These are some of the wireframes we sketched out
+        .row.split-images
+          img.col-sm-6.project-img(src='./img/pakit_wire_1.png')
+          img.col-sm-6.project-img(src='./img/pakit_wire_2.png')
+        .project-subheading Visual Design
+        .project-description For deciding the colors and the typography for the app, we did a small research. Vidushi went to 5 participants and gave them some words related to travel, courier etc and some random words to eliminate the cognitive bias, and asked them to tell the colors that came to their mind on hearing the words.
+        .project-description IThe results were very similar. Most of the participants replied green and blue for the words relevant to us. Hence, we decided to go with a light green color, which would not only better define us, but also signify our growth and give a very calm and cool feeling to the users.
+        .project-description For the typography, Vidushi prepared some headings and text with different fonts, and the team sat down, and started eliminating fonts based on their legibility or aesthetics. After hours of debating, we finally locked Gotham as the font to use.
+        .row.split-images
+          img.col-sm-6.project-img(src='./img/pakit_colors.png')
+          img.col-sm-6.project-img(src='./img/pakit_typo.png')
+      a.back-btn.rnd-btn(href='index.html#portfolio') Back to Portfolio
+      a.contact-btn.rnd-btn(href='contact.html') Let's Talk!
     .project-nav
       a.previous.project-nav-section(href='posters.html')
         i.prev-icon
