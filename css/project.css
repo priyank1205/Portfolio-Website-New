@@ -66,6 +66,9 @@ a:hover, a:focus, a:active {
     max-width: 100%;
     margin-bottom: 60px;
     margin-top: 30px; }
+  .project-details .cover-img {
+    max-width: 100%;
+    margin-bottom: 40px; }
   .project-details .project-gif {
     max-width: 100%;
     margin: 45px auto 20px; }
