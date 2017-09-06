@@ -104,6 +104,14 @@ a:hover, a:focus, a:active {
   margin: 45px auto 20px;
 }
 
+.project-details .highlighted-green {
+  background-color: #D2F398;
+}
+
+.project-details .highlighted-red {
+  background-color: #FDB4B4;
+}
+
 .muted {
   color: #A2A2A2;
 }
