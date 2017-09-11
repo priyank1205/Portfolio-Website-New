@@ -71,6 +71,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     opacity: 0;
     animation: slideWords $animation_time linear infinite;
 
