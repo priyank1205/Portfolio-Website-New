@@ -42,6 +42,8 @@ body {
     .overlay-text{
       position: absolute;
       top: 45vh;
+      left: 1%;
+      transform: translate(-1%, -1%);
 
       .name{
         font-family: 'Abel', sans-serif;
