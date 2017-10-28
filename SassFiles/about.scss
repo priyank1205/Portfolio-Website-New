@@ -88,11 +88,19 @@ body {
         background-color: #FAFCFF;
         color: #6C7A83;
         margin-right: 80px;
+        &:hover{
+          background-color: #BDC5D1;
+          color: #081B27;
+        }
       }
 
       .contact-btn{
         background-color: #28A828;
         color: #FAFCFF;
+        &:hover{
+          background-color: #0C530C;
+          color: #FFFFFF;
+        }
       }
     }
   }
