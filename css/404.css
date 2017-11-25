@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:300,400");
 .center {
-  margin: 80px auto 0;
+  margin: 80px auto 20px;
   font-family: 'Nunito', sans-serif;
   text-align: center; }
 
 .image-container {
-  width: 300px;
+  max-width: 300px;
   margin: 0 auto; }
 
 .target {
